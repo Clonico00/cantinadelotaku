@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cantina del Otaku</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Vamos a crear una pagina web usando CSS (los estilos estaran en el fichero styles.css).
+        La pagina web estara dividdia en 3 partes:
+            - Cabecera
+            - Cuerpo
+            - Pie de pagina
+        La primera parte la llamaremos header, y contendra un titulo que siempre estara en la esquina superior izquierda., y un menu
+        que estara en la esquina superior derecha. El menu una serie de enlaces a:
+            - Merchandising( indexMerchandising.html)
+            - Mangas (indexManga.html)
+            - Comics (indexComics.html)
+            - Novelas (indexNovelas.html)
+            - Forum (indexForum.html)
+            - My Space (indexMySpace.html)
+        Justo al lado del menu habra un boton de busqueda, que no funcionara y boton de un carrito de la compra, que tampoco funcionara.
+        La segunda parte la llamaremos body, y estara divida a su vez en 3 partes:
+            - Merchandising
+            - Comics
+            - Mangas
+        Cada parte estara dividida por una linea, y tendra en el centro un titulo, un slider con 3 fotos, su titulo y un boton de comprar.
+        La tercera parte la llamaremos footer, y estara dividida en 2 partes:
+            - Derecha: tendra dos columnas, la primera con el tityulo Main Menu, y hacia abajo todos los enlaces hacia las paginas de
+                Merchandising, Comics, Mangas, Novelas, Forum y My Space. Y la segunda con el titulo Encuentranos en, y hacia abajo
+                TikTok, Instagram, Facebook, Twitter, Youtube y Pinterest.
+            - Izquierda: tendra un titulo con Sobre la Cantina del Otaku, y un texto con la descripcion de la pagina.
+        Debajo habra un texto que diga: "Todos los derechos reservados. La Cantina del Otaku 2021"
+        Cada una de las partes estara con su div correspondiente parab poder dar estilos a cada una de ellas.
+    -->
+    <div id="header">
+        <div id="titulo">
+            <h1>La Cantina del Otaku</h1>
+        </div>
+        <div id="menu">
+            <ul id="navegacion">
+                <li><a href="indexMerchandising.html">Merchandising</a></li>
+                <li><a href="indexMangas.html">Mangas</a></li>
+                <li><a href="indexComics.html">Comics</a></li>
+                <li><a href="indexNovelas.html">Novelas</a></li>
+                <li><a href="indexForum.html">Forum</a></li>
+                <li><a href="indexMySpace.html">My Space</a></li>
+            </ul>
+            <input type="text" placeholder="Buscar">
+            <button type="button">Carrito</button>
+        </div>
+    </div>
+    <br>
+    <div id="body">
+        <div id="merchandising">
+            <h2>Merchandising</h2>
+            <div id="slider">
+                <div id="slider1">
+                    <img src="img/imagen.jpg" alt="merchandising1">
+                    <h3>Camiseta de Naruto</h3>
+                    <button>Comprar</button>
+                </div>
+                <div id="slider2">
+                    <img src="img/imagen.jpg" alt="merchandising2">
+                    <h3>Camiseta de One Piece</h3>
+                    <button>Comprar</button>
+                </div>
+                <div id="slider3">
+                    <img src="img/imagen.jpg" alt="merchandising3">
+                    <h3>Camiseta de Dragon Ball</h3>
+                    <button>Comprar</button>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div id="comics">
+            <h2>Comics</h2>
+            <div id="slider4">
+                <div id="slider5">
+                    <img src="img/imagen.jpg" alt="comics1">
+                    <h3>Comic de Naruto</h3>
+                    <button>Comprar</button>
+                </div>
+                <div id="slider6">
+                    <img src="img/imagen.jpg" alt="comics2">
+                    <h3>Comic de One Piece</h3>
+                    <button>Comprar</button>
+                </div>
+                <div id="slider7">
+                    <img src="img/imagen.jpg" alt="comics3">
+                    <h3>Comic de Dragon Ball</h3>
+                    <button>Comprar</button>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div id="mangas">
+            <h2>Mangas</h2>
+            <div id="slider8">
+                <div id="slider9">
+                    <img src="img/imagen.jpg" alt="mangas1">
+                    <h3>Manga de Naruto</h3>
+                    <button>Comprar</button>
+                </div>
+                <div id="slider10">
+                    <img src="img/imagen.jpg" alt="mangas2">
+                    <h3>Manga de One Piece</h3>
+                    <button>Comprar</button>
+                </div>
+                <div id="slider11">
+                    <img src="img/imagen.jpg" alt="mangas3">
+                    <h3>Manga de Dragon Ball</h3>
+                    <button>Comprar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <div id="izquierda">
+            <h3 id="about">Sobre la Cantina del Otaku</h3>
+            <p id="aboutText">La Cantina del Otaku es una pagina web dedicada a la venta de merchandising, comics y mangas de los animes mas populares
+                del momento. Encontraras todo tipo de productos relacionados con tus animes favoritos, desde camisetas, gorras, llaveros,
+                figuras, etc. Tambien podras encontrar comics y mangas de tus animes favoritos, para que puedas disfrutar de tus animes
+                favoritos en cualquier momento y lugar.</p>
+        </div>
+        <div id="derecha">
+            <div id="mainMenu">
+                <h3>Main Menu</h3>
+                <ul>
+                    <li><a href="indexMerchandising.html">Merchandising</a></li>
+                    <li><a href="indexMangas.html">Mangas</a></li>
+                    <li><a href="indexComics.html">Comics</a></li>
+                    <li><a href="indexNovelas.html">Novelas</a></li>
+                    <li><a href="indexForum.html">Forum</a></li>
+                    <li><a href="indexMySpace.html">My Space</a></li>
+                </ul>
+            </div>
+            <div id="encuentranos">
+                <h3>Encuentranos en</h3>
+                <ul>
+                    <li><a href="https://www.tiktok.com/es/">TikTok</a></li>
+                    <li><a href="https://www.instagram.com/">Instagram</a></li>
+                    <li><a href="https://www.facebook.com/">Facebook</a></li>
+                    <li><a href="https://twitter.com/">Twitter</a></li>
+                    <li><a href="https://www.youtube.com/">Youtube</a></li>
+                    <li><a href="https://es.pinterest.com/">Pinterest</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+
+</body>
+</html>

@@ -1,0 +1,160 @@
+/*usaremos para toda la pagina web las siguientes constantes:
+    -Font: Lato
+    -Color de fondo de la pagina web: White
+    -Color de los botones: #606060
+*/
+img {
+    width: 200px;
+    height: 200px;
+}
+#header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #606060;
+    color: white;
+    padding: 10px;
+}
+#titulo {
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+#menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#navegacion {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+}
+#navegacion li {
+    padding: 10px;
+}
+#navegacion li a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+#navegacion li a:hover {
+    color: #606060;
+    background-color: white;
+}
+#navegacion li a:active {
+    color: #606060;
+    background-color: white;
+}
+
+/*nuestro footer estara en la parte inferior de la pagina web y tendra un color de fondo gris y un color de letra blanco, ademas de tener un padding de 10px, y un tamaño de letra de 20px, y un tipo de letra Lato, y tendra un borde superior de 1px y un color de borde #606060
+*/
+#footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #606060;
+    color: white;
+    padding: 10px;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    border-top: 1px solid #606060;
+}
+#footer p {
+    margin: 0;
+}
+#footer a {
+    text-decoration: none;
+    color: white;
+}
+/*la parte de id=izquierda tendra el titulo id=about, y debajo de este estara id=aboutText */
+#izquierda {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10px;
+}
+#about {
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+#aboutText {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+/*la parte id=derecha tendra los items dispuestos hacia abajo pero tamto id=mainMenu como id=encuentranos estaran uno al lado del otro*/
+#derecha {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10px;
+}
+#mainMenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10px;
+}
+#mainMenu h2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+#mainMenu ul {
+    list-style-type: none;
+    padding: 0;
+}
+#mainMenu li {
+    padding: 10px;
+}
+#mainMenu li a {
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#encuentranos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10px;
+}
+#encuentranos h2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+#encuentranos ul {
+    list-style-type: none;
+    padding: 0;
+}
+#encuentranos li {
+    padding: 10px;
+}
+#encuentranos li a {
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+
+
+
