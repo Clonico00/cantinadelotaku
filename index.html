@@ -8,25 +8,53 @@
     <link href="css/footerStyle.css" rel="stylesheet">
     <link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" rel="stylesheet">
+    <link href="https://maxccdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.CSS" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
 </head>
 <body>
-<div id="header">
-    <div id="titulo">
-        <h1>La Cantina del Otaku</h1>
-    </div>
-    <div id="menu">
-        <ul id="navegacion">
-            <li><a href="indexMerchandising.html">Merchandising</a></li>
-            <li><a href="indexMangas.html">Mangas</a></li>
-            <li><a href="indexComics.html">Comics</a></li>
-            <li><a href="indexNovelas.html">Novelas</a></li>
-            <li><a href="indexForum.html">Forum</a></li>
-            <li><a href="indexMySpace.html">My Space</a></li>
+<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">La Cantina del Otaku</a>
+    <button class="navbar-toggler" data-target="#navbarSupportedContent" data-toggle="
+     collapse" type="button">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="indexMerchandising.html">Merchandising</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="indexMangas.html">Manga</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="indexComics.html">Comics</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="indexNovelas.html">Novelas</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="indexForum.html">Forum</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="indexMySpace.html">My Space</a>
+            </li>
+
         </ul>
-        <input placeholder="Buscar" type="text">
-        <button type="button">Carrito</button>
+        <form class="form-inline">
+            <input aria-label="Buscar" class="form-control mr-sm-2" placeholder="Buscar..." type="search">
+            <span class="glyphicon glyphicon-shopping-cart"> </span>
+            <button class="btn btn-light my-sm-0 mr-2" type="submit">Buscar</button>
+
+            <button class="btn btn-light my-sm-0" type="submit">Cesta</button>
+        </form>
     </div>
-</div>
+
+</nav>
+
 <br>
 <div id="body">
     <div class="bd-example">
@@ -154,14 +182,15 @@
     </div>
 </div>
 <br>
-
 <br>
+<!-- Footer -->
 <div class="container-fluid">
     <div class="row p-5 pb-2 bg-dark text-white">
 
         <div class="col-xs-12 col-md-6 col-lg-3">
             <p class="h3 mb-3">Cantina del Otaku</p>
-            <p class="text-secondary">Libreria online especializada en manga, <br>merchandising y comics. Donde podras leer<br> y debatir tus libros favoritos</p>
+            <p class="text-secondary">Libreria online especializada en manga, <br>merchandising y comics. Donde podras
+                leer<br> y debatir tus libros favoritos</p>
         </div>
         <div class="col-xs-12 col-md-6 col-lg-3">
             <p class="h5 mb-3">Main Menu</p>
@@ -208,13 +237,9 @@
                 <a class="text-secondary text-decoration-none" href="#">Privacy Policy</a>
             </div>
         </div>
-
     </div>
-
 </div>
 
-<!-- Optional JavaScript -->
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script crossorigin="anonymous"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
