@@ -1,33 +1,47 @@
+.carousel  {
+    width: 50%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
 
-img {
-    width: 200px;
-    height: 200px;
 }
 
-#slider {
+.carousel .slides {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
     overflow: hidden;
 }
 
-@keyframes slider {
-    0% { left: 0; }
-    30% { left: 0; }
-    33% { left: -100%; }
-    63% { left: -100%; }
-    66% { left: -200%; }
-    95% { left: -200%; }
-    100% { left: 0; }
+.carousel .slides .slide {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 1s;
 }
-#slider figure {
-    width:300%;
-    position: relative;
-    animation: 9s slider infinite;
+.carousel-caption {
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 5px;
+    padding: 10px;
 }
 
-#slider figure:hover {
-    /*animation-play-state: paused; enable for pause on hover*/
+.carousel-control-next, .carousel-control-prev {
+    border-radius: 5px;
+    opacity: 0.1;
+
 }
-#slider figure img {
-    width: 33.33%;
-    height : 100%;
-    float: left;
+
+.carousel-control-next:hover, .carousel-control-prev:hover {
+    background-color: rgba(0,0,0,0.3);
 }
+
