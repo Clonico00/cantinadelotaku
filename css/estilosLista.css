@@ -53,43 +53,43 @@ a:hover {
 }
 
 .section-products #product-1 .part-1::before {
-    background: url('/img/figuradb.jpg') no-repeat center;
+    background: url('img/figuradb.jpg') no-repeat center;
     background-size: cover;
     transition: all 0.3s;
 }
 
 .section-products #product-2 .part-1::before {
-    background: url('/img/llaveronaruto.jpg') no-repeat center;
+    background: url('img/llaveronaruto.jpg') no-repeat center;
     background-size: cover;
 }
 
 .section-products #product-3 .part-1::before {
-    background: url('/img/lokifunko.jpg') no-repeat center;
+    background: url('img/lokifunko.jpg') no-repeat center;
     background-size: cover;
 }
 
 .section-products #product-4 .part-1::before {
-    background: url('/img/figurarathalos.jpg') no-repeat center;
+    background: url('img/figurarathalos.jpg') no-repeat center;
     background-size: cover;
 }
 .section-products #product-5 .part-1::before {
-    background: url('/img/juegolotr.jpg') no-repeat center;
+    background: url('img/juegolotr.jpg') no-repeat center;
     background-size: cover;
     transition: all 0.3s;
 }
 
 .section-products #product-6 .part-1::before {
-    background: url('/img/cartasmarvel.jpg') no-repeat center;
+    background: url('img/cartasmarvel.jpg') no-repeat center;
     background-size: cover;
 }
 
 .section-products #product-7 .part-1::before {
-    background: url('/img/starwarsposter.jpg') no-repeat center;
+    background: url('img/starwarsposter.jpg') no-repeat center;
     background-size: cover;
 }
 
 .section-products #product-8 .part-1::before {
-    background: url('/img/supermanfunko.jpg') no-repeat center;
+    background: url('img/supermanfunko.jpg') no-repeat center;
     background-size: cover;
 }
 
